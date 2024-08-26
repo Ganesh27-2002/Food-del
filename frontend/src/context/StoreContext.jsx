@@ -7,7 +7,7 @@ const StoreContextProvider=(props)=>{
 
     const [cartItems,setCartItems]=useState({});
     const [token,setToken]=useState("");
-    const url="http://localhost:3000";
+    const url="https://food-delivery-app-yspv.onrender.com";
     const [food_list,setFoodList]=useState([]);
 
 
